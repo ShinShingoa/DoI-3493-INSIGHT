@@ -314,6 +314,11 @@ strong {
     font-weight: 800;
 }
 
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
 hr {
     background-color: rgb(var(--ec-popup-color));
     border: none;
