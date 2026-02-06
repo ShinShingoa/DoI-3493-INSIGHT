@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE 72 - Personnel File | S.A. 3493</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Modal Warning Overlay -->
+    <div id="modal-overlay" class="modal-wrapper">
+        <div class="ec-popup">
+            <div class="ec-grid">
+                <div class="ec-popup-login">
+                    <a href="#">P.Crenshaw@scip.net</a>
+                </div>
+                <div class="ec-popup-date">
+                    JANUARY XX, 2009 - XX:XX LOCAL
+                </div>
+                <div class="ec-popup-title">
+                    PERSONNEL FILE
+                    <div style="font-size: 50%;">ID #I.N. – 3493</div>
+                </div>
+
+                <div class="ec-popup-class">
+                    <div>CLEARANCE</div>
+                    <div>DoI & 3+ ONLY</div>
+                </div>
+
+                <div class="ec-popup-status">
+                    <div>SITE</div>
+                    <div><span style="color: #8b0000">SITE 72</span></div>
+                </div>
+
+                <div class="ec-popup-priority">
+                    <div>PERSONNEL</div>
+                    <div>INSIGHT</div>
+                </div>
+
+                <div class="ec-popup-desc">
+                    <div style="font-size: 150%;">WARNINGS:</div>
+                    • <strong>Please read the 'Errors & Inconsistencies'.</strong><br>
+                    • <strong>IF YOUR OC IS EITHER NOT IN DOI OR HAS A CLASSIFICATION LOWER THAN 3, THEY DO NOT KNOW ANY OF THIS INFORMATION IN RP.</strong>
+                </div>
+                <div class="ec-popup-button" id="proceed-button">
+                    <a href="#">PROCEED</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content" class="hidden">
+        <!-- Tab Navigation -->
+        <div class="tab-container">
+            <div class="tab-buttons">
+                <button class="tab-button active" data-tab="intro">INTRODUCTION & NOTES</button>
+                <button class="tab-button" data-tab="personnel">PERSONNEL FILE</button>
+            </div>
+
+            <!-- Tab Content: Introduction -->
+            <div id="intro-tab" class="tab-content active">
+                <div class="loading-text">
+                    <p>...</p>
+                    <p>Loading document...</p>
+                    <p>...</p>
+                </div>
+
+                <div class="classification_memo">
+                    <h2>WARNING: The Following Information is [RESTRICTED TO CLEARANCE LEVEL 3+]</h2>
+                    <hr>
+                    <h3>ANY ATTEMPT TO ACCESS THIS FILE WITHOUT LEVEL 3/XXXX AUTHORIZATION WILL BE LOGGED AND WILL LEAD TO IMMEDIATE DISCIPLINARY ACTION.</h3>
+                </div>
+
+                <div class="ec">
+                    <div class="ec-title">INTRODUCTION & NOTES</div>
+                    <p style="text-align: center;">Welcome to the Personnel File on Department of Investigations "Insight", before you begin reading the file, please look below at the list of things you should note before starting.</p>
+
+                    <div class="bi-y" style="margin: 3px; text-align: center;">
+                        <strong>ERRORS & INCONSISTENCIES</strong>
+                        <p>• There's a small bug where, and you'll see below, when you click 'PERSONNEL FILE' it MAY either make you stay at the bottom or go halfway/near the top of the page, you have 3 options: 1. Scroll all the way up using your mouse, 2. Press the home button on your keyboard, 3. At the bottom of the page, I've installed a 'go to top' button, hit that.</p>
+                        <p>• For any undiscovered errors/inconsistencies, please DM or Ping '@shingop'.</p>
+                    </div>
+
+                    <div class="bi-r" style="margin: 3px; text-align: center;">
+                        <strong>LORE INFORMATION</strong>
+                        <p>• In regards to the personnel records, please go from 'H.Grant' to 'Earl' to 'Insight'.</p>
+                        <p>[THE PERSONNEL RECORDS ARE TO BE VIEWED LAST, SO WHEN YOU CLICK ON 'PERSONNEL FILE' AND IT TAKES YOU TO IT, PLEASE HIT THE GO TO TOP BUTTON OR JUST SCROLL UP]</p>
+                        <p>• If something is highlighted, hover over it with your mouse to see added <span class="bi-r"><a href="javascript:void(0)">information</a></span><span class="bi-popup">Depending on your browser, clicking the highlighted text will make the annotation stay even when you move your mouse off it. Once clicked, to take it off, simply click anywhere on the screen other than the annotation or highlighted text.</span>.</p>
+                    </div>
+
+                    <div class="bi-g" style="margin: 3px; text-align: center;">
+                        <strong>CREDITS</strong>
+                        <p>• Credits for this style of coding goes to the creator of SCP-8980, Yossipossi.</p>
+                    </div>
+                    <h6 style="text-align: center;">PS. The colour of the highlights mean NOTHING.</h6>
+                </div>
+            </div>
+
+            <!-- Tab Content: Personnel File -->
+            <div id="personnel-tab" class="tab-content">
+                <div class="loading-text">
+                    <p>...</p>
+                    <p>Loading document...</p>
+                    <p>...</p>
+                </div>
+
+                <!-- Foundation Employment Details -->
+                <div class="ec">
+                    <div class="ec-title">FOUNDATION EMPLOYMENT DETAILS</div>
+                    
+                    <div class="bi-r scientistimage">
+                        <a href="javascript:void(0)" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0;"></a>
+                        <img src="https://scp-sandbox-3.wdfiles.com/local--files/s-a-3493-redacted/Screenshot%202026-01-05%20at%2020.27.09.png" 
+                             alt="A tall tanned Male with Black hair (Partly Red), wearing a suit with a brown overcoat." 
+                             width="225px">
+                        <div style="text-align: center; font-size: 0.9em; margin-top: 5px;">Foundation ID Picture.</div>
+                    </div>
+
+                    <p><strong>Site Of Operations:</strong> <span class="bi-g"><a href="javascript:void(0)">Site 72 – United States, Colorado</a></span><span class="bi-popup">
+                    <strong>Founded:</strong> 18 November 2005<br>
+                    <strong>Founding Site Director:</strong> Mx. Jodie Backston<br>
+                    <strong>Current Site Director:</strong> Ms. F. Merkel<br>
+                    <strong>Site Function:</strong> Research, Short Term Containment, Anomalous Humanoid Containment<br>
+                    <strong>Size:</strong> Area of 5.12km2<br>
+                    <hr>
+                    <strong>Site Historical Context:</strong><br>
+                    • Proposed: 1968<br>
+                    • Construction Completed: 1989<br>
+                    • Decommissioned: 1996<br>
+                    • Recommissioned: 2005<br>
+                    • Refurbished: 2007<br>
+                    <hr>
+                    <strong>Additional Information:</strong><br>
+                    Site 72 is a containment and research facility established atop the remnants of a decommissioned site embedded deep within a mountain range similar to the Cheyenne Mountains. The only external access is through an old mining silo, complicating any unauthorized access. Originally constructed in 1989 and decommissioned in 1996 due to design concerns and security leaks, Site 72 was repurposed in 2005. Refurbishments completed in 2007 modernised much of the site's structure, however certain sections still boast the original layout.
+                    </span></p>
+
+                    <p><strong>Employee ID:</strong> <span class="bi-b"><a href="javascript:void(0)">I.N. 3493</a></span><span class="bi-popup">I.N. 3493, 'I.N.' refers to the rank, in which case is 'Investigator'. '3493' refers to an individual Identification Number, usually these can range from one digit Numbers (Overwatch Command) to 10 however usually they hold no meaning.</span></p>
+
+                    <p><strong>Codename:</strong> "Insight"</p>
+
+                    <p><strong>Department:</strong> <span class="bi-y"><a href="javascript:void(0)">Department of Investigations</a></span><span class="bi-popup">The Department of Investigations is the sole department responsible for handling internal security inside Site 72.</span></p>
+
+                    <p><strong>Department Rank:</strong> Investigator</p>
+                    <p><strong>Security Clearance:</strong> Level 3</p>
+                    <p><strong>Affiliation:</strong> Foundation</p>
+                    <p><strong>Status:</strong> Active</p>
+
+                    <hr>
+
+                    <p><strong>Date of Entry:</strong> 2nd of March 2003</p>
+                    <p><strong>Length of Service:</strong> 5 Years</p>
+                    <p><strong>Service History:</strong></p>
+                    <ul>
+                        <li><span class="bi-y"><a href="javascript:void(0)">Site – ██</a></span><span class="bi-popup">Due to the nature of their employment, all references of the facilities Supervisory Special Agent "Earl" was deployed have been [REDACTED].</span> | Internal Security Department – 2003 to 2008.
+                            <ul><li>Supervisory Special Agent "Earl".</li></ul>
+                        </li>
+                        <li>Site – 72 | Department of Investigation – 2008 to Current.
+                            <ul><li>Senior Agent "Insight".</li></ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Foundation Personnel Details -->
+                <div class="ec">
+                    <div class="ec-title">FOUNDATION PERSONNEL DETAILS</div>
+
+                    <p><strong>Full Name:</strong> Hayden Marcus Grant</p>
+                    <p><strong>Date of Birth (DD/MM/YYYY):</strong> 18/07/1976</p>
+                    <p><strong>Place of Birth (City, Region, Country):</strong> Nottingham, East Midlands, England.</p>
+                    <p><strong>Current Confirmed Age:</strong> 32</p>
+                    <p><strong>Biological Sex (per medical record):</strong> Male</p>
+                    <p><strong>Confirmed Nationality:</strong> Great Britain</p>
+                    <p><strong>Ethnicity:</strong> Arab</p>
+
+                    <hr>
+
+                    <p><strong>Height:</strong> <span class="bi-b"><a href="javascript:void(0)">187cm</a></span><span class="bi-popup">Also known as: 6'1 (6 Foot, 1 Inches.)</span></p>
+                    <p><strong>Weight:</strong> <span class="bi-b"><a href="javascript:void(0)">82kg</a></span><span class="bi-popup">Also known as: 180 lb (Pounds) or 13 stones.</span></p>
+                    <p><strong>Hair Colour:</strong> Black (Partly dyed red)</p>
+                    <p><strong>Eye Colour:</strong> Dark Brown</p>
+                    <p><strong>Identifiable Marks:</strong> Heavily Scarred Right Hand, <span class="bi-r"><a href="javascript:void(0)">Tattoo of a duck with a tophat on the right leg</a></span><span class="bi-popup">Reportedly a 'drunk tattoo' obtained during his time in the military.</span>.</p>
+                    <p><strong>Assigned Description:</strong> A tall tanned Male with Black hair (Partly Red), wearing a suit with a brown overcoat.</p>
+
+                    <hr>
+
+                    <p><span class="bi-g"><a href="javascript:void(0)"><strong>Family Structure Summary:</strong></a></span><span class="bi-popup">Refer to the 'Subject Background File' for a more in-depth showcase.</span></p>
+                    <ul>
+                        <li>Maryam Ayub (Formerly, Maryam Grant), Mother</li>
+                        <li>Cameron Grant, Biological Father</li>
+                        <li>Francis Terris, Step Father</li>
+                        <li>Cassim Grant, Brother</li>
+                    </ul>
+
+                    <p><span class="bi-g"><a href="javascript:void(0)"><strong>Education Summary:</strong></a></span><span class="bi-popup">Refer to the 'Subject Background File' for a more in-depth showcase.</span></p>
+                    <ul>
+                        <li>Local Nottingham Secondary School, Completed GCSEs.</li>
+                        <li><span class="bi-y"><a href="javascript:void(0)">Sandhurst Military Academy</a></span><span class="bi-popup">The Royal Military Academy Sandhurst (RMAS or RMA Sandhurst), commonly known simply as Sandhurst, is one of several military academies of the United Kingdom and is the British Army's initial officer training centre.</span>.
+                            <ul><li>Attended due to acceptance into the Officer program.</li></ul>
+                        </li>
+                        <li><span class="bi-y"><a href="javascript:void(0)">Fort Monckton</a></span><span class="bi-popup">Fort Monckton is a historic military fort on the south-east shoreline of the Gosport peninsula, Hampshire. Built on the ruins of Haselworth Castle to protect Portsmouth Harbour at the start of the American War of Independence, it was rebuilt in the 1880s as a Palmerston fort. It now houses a training centre for the intelligence services.</span>.
+                            <ul><li>On Loan to another agency, required to attend.</li></ul>
+                        </li>
+                        <li>Internal Security Department's Training Regiment.
+                            <ul><li>Recruited.</li></ul>
+                        </li>
+                        <li>Department of Investigations's Training Regiment.
+                            <ul><li>Requested transfer, accepted.</li></ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Personnel Records -->
+                <div class="ec">
+                    <div class="ec-title">PERSONNEL RECORDS</div>
+
+                    <!-- H.Grant Record -->
+                    <div class="blockquote">
+                        <p><strong>H.Grant</strong> <span class="logtime">| Personnel Records</span></p>
+                        <div class="ec-comment">
+                            <div class="login-button">
+                                <button class="collapsible-btn">➤ ACCESS: SITE-44/PERSONNEL/H.GRANT/BACKGROUND</button>
+                                <div class="collapsible-content">
+                                    <div class="dyna-email-container">
+                                        <div class="dyna-email">
+                                            <div class="header-box">
+                                                <div><strong>From:</strong> site44.administration.department@scip.net</div>
+                                                <div><strong>To:</strong> P.Crenshaw@scip.net</div>
+                                                <div><strong>Subject:</strong> Subject Background File on Hayden Marcus Grant</div>
+                                            </div>
+                                            <div class="content-box">
+                                                <p>As requested, Below is the background file for Hayden Grant, documenting relevant history from birth to their initial introduction to the Foundation.</p>
+                                                <div class="text">
+                                                    <div class="blockquote">
+                                                        <p style="text-align: center;"><strong style="color: red;">ACCESS: One (1) Attachment.</strong></p>
+                                                        <p style="color: white;">➤ <a href="https://scp-sandbox-3.wikidot.com/3493-subject-background-file">SITE-44/PERSONNEL/H.GRANT/BACKGROUND-FILE</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="footer-box">
+                                                <div><strong>Automated Response System</strong></div>
+                                                <div>Site – 44 Department of Administration</div>
+                                                <div>Secure, Contain, Protect</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Earl Record -->
+                    <div class="blockquote">
+                        <p><strong>"Earl"</strong> <span class="logtime">| Personnel Records</span></p>
+                        <div class="ec-comment">
+                            <div class="login-button">
+                                <button class="collapsible-btn">➤ ACCESS: SITE-██/PERSONNEL/EARL/PERSONNEL-FILE</button>
+                                <div class="collapsible-content">
+                                    <div class="classification_memo" style="background-color: #b5906a; color: black;">
+                                        <h2>WARNING: The Following Information is [RESTRICTED TO CLEARANCE LEVEL 4+]</h2>
+                                        <hr>
+                                        <h3>ANY ATTEMPT TO ACCESS THE FOLLOWING INFORMATION WITHOUT THE NECESSARY AUTHORIZATION WILL BE MET WITH IMMEDIATE TERMINATION.</h3>
+                                    </div>
+                                    <div class="dyna-email-container">
+                                        <div class="dyna-email">
+                                            <div class="header-box">
+                                                <div><strong>From:</strong> A.foremen@scip.net</div>
+                                                <div><strong>To:</strong> █████████</div>
+                                                <div><strong>Subject:</strong> 'Earl'</div>
+                                            </div>
+                                            <div class="content-box">
+                                                <p>As requested by your office, below is all documentation on Supervisory Special Agent 'Earl'.</p>
+                                                <div class="text">
+                                                    <div class="blockquote">
+                                                        <p style="text-align: center;"><strong style="color: red;">ACCESS: One (1) Attachment.</strong></p>
+                                                        <p style="color: white;">➤ <a href="https://scp-sandbox-3.wikidot.com/isd-earl-3493">SITE-██/ISD/PERSONNEL/EARL/PERSONNEL-FILE</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="footer-box">
+                                                <div><strong>Alexander Foreman</strong></div>
+                                                <div>Internal Security Department, Deputy Director</div>
+                                                <div>Secure, Contain, Protect</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Insight Record -->
+                    <div class="blockquote">
+                        <p><strong>"Insight"</strong> <span class="logtime">| Personnel Records</span></p>
+                        <div class="ec-comment">
+                            <div class="login-button">
+                                <button class="collapsible-btn">➤ ACCESS: SITE-72/PERSONNEL/INSIGHT/SERVICE-FILE</button>
+                                <div class="collapsible-content">
+                                    <div class="dyna-email-container">
+                                        <div class="dyna-email">
+                                            <div class="header-box">
+                                                <div><strong>From:</strong> @scip.net</div>
+                                                <div><strong>To:</strong> P.Crenshaw@scip.net</div>
+                                                <div><strong>Subject:</strong> "Insight"'s Service Record</div>
+                                            </div>
+                                            <div class="content-box">
+                                                <p>As requested, Below is the Service Record for Department of Investigation's Member "Insight", Record contains: Incident Records, Investigation Records & a brief summary of their time in the Department.</p>
+                                                <div class="text">
+                                                    <div class="blockquote">
+                                                        <p style="text-align: center;"><strong style="color: red;">ACCESS: One (1) Attachment.</strong></p>
+                                                        <p style="color: white;">➤ <a href="https://scp-sandbox-3.wikidot.com/3493-service-record">SITE-72/PERSONNEL/INSIGHT/SERVICE-FILE</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="footer-box">
+                                                <div><strong>Automated Response System</strong></div>
+                                                <div>Site – 72 Department of Investigations</div>
+                                                <div>Secure, Contain, Protect</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Medical File -->
+                            <div class="login-button">
+                                <button class="collapsible-btn">➤ ACCESS: SITE-72/PERSONNEL/INSIGHT/MEDICAL-FILE</button>
+                                <div class="collapsible-content">
+                                    <div class="css-table">
+                                        <div class="css-row">
+                                            <div class="css-cell left">
+                                                <div class="cell-title">
+                                                    <h4><strong>Personnel Picture:</strong></h4>
+                                                </div>
+                                                <div class="image-box">
+                                                    <img src="https://scp-sandbox-3.wdfiles.com/local--files/s-a-3493-redacted/Screenshot%202026-01-05%20at%2020.27.09.png" alt="Personnel Photo">
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="cell-subtitle">Personnel Details</div>
+                                                    <p><strong>Codename:</strong> "Insight"</p>
+                                                    <p><strong>Name:</strong> Hayden Marcus Grant</p>
+                                                    <p><strong>Department:</strong> Department of Investigations | Everett Block</p>
+                                                    <p><strong>Department Rank:</strong> Senior Agent</p>
+                                                    <p><strong>Security Clearance:</strong> Level 3</p>
+                                                    <hr>
+                                                    <p><strong>Date of Birth:</strong> 18/7/1976 | DD/MM/YYYY</p>
+                                                    <p><strong>Height:</strong> 186 cm | 6 Foot 1 Inches</p>
+                                                    <p><strong>Weight:</strong> 82 kg</p>
+                                                    <p><strong>Blood Type:</strong> A+</p>
+                                                    <p><strong>Status:</strong> Alive</p>
+                                                </div>
+                                            </div>
+                                            <div class="css-cell right">
+                                                <div class="cell-title">
+                                                    <h4><strong>Medical Information:</strong></h4>
+                                                </div>
+                                                <div class="info-box">
+                                                    <div class="cell-subtitle">Medical Details</div>
+                                                    <p><strong>Allergies:</strong></p>
+                                                    <ul>
+                                                        <li>Cats</li>
+                                                        <li>lavender</li>
+                                                    </ul>
+                                                    <p><strong>Medical Conditions:</strong></p>
+                                                    <ul>
+                                                        <li>Dormant Asthma (Flares in cold)</li>
+                                                        <li>Post Traumatic Stress Disorder: Certain situations make Senior Agent Grant hypervigilant.
+                                                            <ul><li>Senior Agent Grant's scarred hand tends to flare up in imaginary pain as a subconscious warning system.</li></ul>
+                                                        </li>
+                                                    </ul>
+                                                    <p><strong>Latest Blood Test:</strong></p>
+                                                    <ul><li>Clean, Low on Iron</li></ul>
+                                                    <p><strong>Prescribed Medication:</strong></p>
+                                                    <ul>
+                                                        <li>Ferrous fumarate (Iron Deficiency)</li>
+                                                        <li>Paroxetine and sertraline (PTSD)</li>
+                                                        <li>Loratadine (Allergy)</li>
+                                                        <li>Class E Amnestics (Post SCP-10667 Incident)</li>
+                                                        <li>dextromethorphan (Cough Medicine, reported having consistent coughs after 'bout' with SCP-008 strain.)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="loading-text" style="margin-top: 40px;">
+                    <p>...</p>
+                    <p>End of file.</p>
+                    <p>No further documents found.</p>
+                    <p>...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Back to Top Button -->
+        <div class="ec-theme-button">
+            <div class="ec-button-inner-wrapper">
+                <a href="#" id="back-to-top">-- Back to Top --</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
