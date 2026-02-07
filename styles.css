@@ -61,12 +61,49 @@ a:hover {
     padding: 1px;
 }
 
-a:hover::before {
+/* Exclude annotation popups and scientist image from ACCESS effect */
+a:hover:not(.bi-r a, .bi-y a, .bi-g a, .bi-b a, .bi-popup a, .scientistimage a)::before {
     content: "ACCESS: [";
 }
 
-a:hover::after {
+a:hover:not(.bi-r a, .bi-y a, .bi-g a, .bi-b a, .bi-popup a, .scientistimage a)::after {
     content: "]";
+}
+
+/* Keep annotation links simple */
+.bi-r a,
+.bi-y a,
+.bi-g a,
+.bi-b a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.bi-r a:hover,
+.bi-y a:hover,
+.bi-g a:hover,
+.bi-b a:hover {
+    background-color: transparent;
+    padding: 0;
+}
+
+.bi-popup a {
+    pointer-events: auto;
+    color: #ff0000;
+}
+
+.bi-popup a:hover {
+    background-color: transparent;
+    padding: 0;
+}
+
+.scientistimage a {
+    pointer-events: auto;
+}
+
+.scientistimage a:hover {
+    background-color: transparent;
+    padding: 0;
 }
 
 hr {
@@ -405,14 +442,6 @@ hr {
 
 .bi-b {
     background-color: rgba(0, 150, 255, 0.25);
-}
-
-.bi-r a,
-.bi-y a,
-.bi-g a,
-.bi-b a {
-    color: inherit;
-    text-decoration: none;
 }
 
 .bi-popup {
