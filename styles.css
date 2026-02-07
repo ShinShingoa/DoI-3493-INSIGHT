@@ -449,6 +449,10 @@ hr {
     pointer-events: none;
 }
 
+.bi-popup.clicked-popup {
+    pointer-events: auto;
+}
+
 .bi-popup hr {
     background-color: rgb(var(--ec-popup-color));
     border: none;
@@ -476,6 +480,7 @@ hr {
     transition-duration: 0.2s;
     bottom: 5rem;
     visibility: visible;
+    pointer-events: auto;
 }
 
 /* ==========================================
