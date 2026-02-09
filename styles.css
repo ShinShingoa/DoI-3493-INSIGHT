@@ -567,7 +567,7 @@ hr {
 .header-row {
     display: grid;
     grid-template-columns: max-content auto;
-    column-gap: 3px;
+    column-gap: 1px;
 }
 
 .header-label {
