@@ -840,6 +840,23 @@ hr {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+/* Make text touch in the middle for cc-none */
+.top-left-box.cc-none > div {
+    padding-right: 0px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top-middle-box.cc-none > div {
+    padding-left: 0px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 /* Hide Title if 'none' */
 .title-box.title-none {
     display: none;
