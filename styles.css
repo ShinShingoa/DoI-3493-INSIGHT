@@ -1114,21 +1114,3 @@ hr {
         padding: 12px 15px;
     }
 }
-
-/* Center the LEFT header labels toward the middle */
-.top-left-box.cc-none {
-    justify-items: center;
-}
-
-.top-left-box.cc-none > div {
-    text-align: right;
-}
-
-/* Center the MIDDLE header values toward the middle */
-.top-middle-box.cc-none {
-    justify-items: center;
-}
-
-.top-middle-box.cc-none > div {
-    text-align: left;
-}
