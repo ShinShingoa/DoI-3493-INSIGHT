@@ -819,12 +819,21 @@ hr {
     display: none;
 }
 
+/* When CC is hidden, adjust the grid to 3 rows instead of 4 */
 .top-left-box.cc-none {
-    margin-top: 20px;
+    grid-template-areas:
+        "from-box"
+        "to-box"
+        "subject-box";
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .top-middle-box.cc-none {
-    margin-top: 20px;
+    grid-template-areas:
+        "from-name-box"
+        "to-name-box"
+        "subject-text-box";
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 /* Hide Title if 'none' */
