@@ -830,6 +830,8 @@ hr {
         "to-box"
         "subject-box";
     grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: end;
 }
 
 .top-middle-box.cc-none {
@@ -838,23 +840,19 @@ hr {
         "to-name-box"
         "subject-text-box";
     grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: start;
 }
 
 /* Make text touch in the middle for cc-none */
 .top-left-box.cc-none > div {
-    padding-right: 0px;
-    margin-right: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    padding-right: 5px;
+    align-self: center;
 }
 
 .top-middle-box.cc-none > div {
-    padding-left: 0px;
-    margin-left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    padding-left: 5px;
+    align-self: center;
 }
 
 /* Hide Title if 'none' */
