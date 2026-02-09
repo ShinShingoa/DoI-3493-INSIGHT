@@ -109,17 +109,15 @@ hr {
     z-index: 9999;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
         url("https://scp-sandbox-3.wikidot.com/local--files/testing4242424525215/fractal.jpg");
+    background-position: center, center;
+    background-size: cover;
+    background-attachment: scroll, fixed;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     display: flex;
     justify-content: center;
     align-items: center;
     animation: fademodal 0.15s forwards;
-}
-
-.modal-overlay {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-        url("https://scp-sandbox-3.wikidot.com/local--files/testing4242424525215/fractal.jpg");
 }
 
 @keyframes fademodal {
