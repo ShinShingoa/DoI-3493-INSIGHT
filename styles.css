@@ -640,7 +640,7 @@ hr {
     font-weight: 700;
     margin-bottom: 0px;
     margin-top: 5px;
-    padding-right: 0px;
+    padding-right: 1px;
 }
 
 .top-left-box > .from-box {
@@ -670,7 +670,7 @@ hr {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-items: start;
     align-items: center;
-    margin-left: 0px;
+    margin-left: 1px;
     margin-bottom: 0px;
 }
 
@@ -683,7 +683,7 @@ hr {
     margin-top: 5px;
     margin-bottom: 0px;
     text-wrap: balance;
-    padding-left: 0px;
+    padding-left: 1px;
 }
 
 .top-middle-box > .from-name-box,
@@ -712,7 +712,7 @@ hr {
     width: 100%;
     grid-area: top-right-box;
     display: block;
-    background-image: url("https://scp-wiki.wdfiles.com/local--files/the-great-hippo/SCP_icon%281%29.png");
+    background-image: url("https://scp-wiki.wdfiles.com/local--files/theme%3Abasalt/basalt_scp_logo-for_darkmode.svg");
     background-size: 75px 75px;
     background-position: right center;
     background-repeat: no-repeat;
@@ -853,16 +853,16 @@ hr {
 
 /* Make text touch in the middle for cc-none */
 .top-left-box.cc-none > div {
-    padding-right: 0px;
-    margin-right: 0px;
+    padding-right: 1px;
+    margin-right: 1px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
 .top-middle-box.cc-none > div {
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 1px;
+    margin-left: 1px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
