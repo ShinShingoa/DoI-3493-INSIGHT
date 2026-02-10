@@ -640,7 +640,7 @@ hr {
     font-weight: 700;
     margin-bottom: 0px;
     margin-top: 5px;
-    padding-right: 5px;
+    padding-right: 3px;
 }
 
 .top-left-box > .from-box {
@@ -683,7 +683,7 @@ hr {
     margin-top: 5px;
     margin-bottom: 0px;
     text-wrap: balance;
-    padding-left: 5px;
+    padding-left: 3px;
 }
 
 .top-middle-box > .from-name-box,
