@@ -640,7 +640,7 @@ hr {
     font-weight: 700;
     margin-bottom: 0px;
     margin-top: 5px;
-    padding-right: 3px;
+    padding-right: 0px;
 }
 
 .top-left-box > .from-box {
@@ -670,7 +670,7 @@ hr {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-items: start;
     align-items: center;
-    margin-left: 2px;
+    margin-left: 0px;
     margin-bottom: 0px;
 }
 
@@ -683,7 +683,7 @@ hr {
     margin-top: 5px;
     margin-bottom: 0px;
     text-wrap: balance;
-    padding-left: 3px;
+    padding-left: 0px;
 }
 
 .top-middle-box > .from-name-box,
