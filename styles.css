@@ -87,7 +87,7 @@ a:hover {
 }
 
 hr {
-    background-color: rgb(var(--ec-popup-color));
+    background-color: rgb(var(--ec-popup-color)) !important;
     border: none;
     height: 2px;
     margin: 1em 0;
@@ -640,7 +640,7 @@ hr {
     font-weight: 700;
     margin-bottom: 0px;
     margin-top: 5px;
-    padding-right: 5px;
+    padding-right: 1px;
 }
 
 .top-left-box > .from-box {
@@ -683,7 +683,7 @@ hr {
     margin-top: 5px;
     margin-bottom: 0px;
     text-wrap: balance;
-    padding-left: 5px;
+    padding-left: 1px;
 }
 
 .top-middle-box > .from-name-box,
@@ -709,23 +709,25 @@ hr {
 }
 
 .header-box > .top-right-box {
-    width: 100%;
     grid-area: top-right-box;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: center;          /* vertical centering */
+    justify-content: center;      /* horizontal centering */
     background-image: url("https://scp-wiki.wdfiles.com/local--files/theme%3Abasalt/basalt_scp_logo-for_darkmode.svg");
     background-size: 75px 75px;
-    background-position: center center;
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
+    background-position: center;
+    margin: 0;                    /* REMOVE offsets */
 }
 
 @media screen and (max-width: 800px) {
     .header-box > .top-right-box {
         min-width: 75px;
+        margin-left: 0;
     }
+}
+
+@media screen and (max-width: 800px) {
     .header-box > .top-left-box {
         padding-left: 1em;
     }
@@ -852,7 +854,21 @@ hr {
 }
 
 /* Make text touch in the middle for cc-none */
+.top-left-box.cc-none > div {
+    padding-right: 1px;
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
+.top-middle-box.cc-none > div {
+    padding-left: 1px;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
 /* Hide Title if 'none' */
 .title-box.title-none {
