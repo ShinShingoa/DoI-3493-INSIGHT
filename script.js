@@ -190,19 +190,22 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // ==========================================
-// Email logo script
+// EMAIL LOGO AXIS ALIGNMENT
 // ==========================================
-<script>
 window.addEventListener("load", () => {
-  const bottom = document.querySelector(".bottom-right-box");
-  const top = document.querySelector(".top-right-box");
+    const bottom = document.querySelector(".bottom-right-box");
+    const top = document.querySelector(".top-right-box");
 
-  if (!bottom || !top) return;
+    if (!bottom || !top) return;
 
-  const rect = bottom.getBoundingClientRect();
-  const parentRect = top.offsetParent.getBoundingClientRect();
+    const bottomRect = bottom.getBoundingClientRect();
+    const topOffsetParent = top.offsetParent;
 
-  top.style.position = "absolute";
-  top.style.left = `${rect.left - parentRect.left}px`;
+    if (!topOffsetParent) return;
+
+    const parentRect = topOffsetParent.getBoundingClientRect();
+
+    top.style.position = "absolute";
+    top.style.left = `${bottomRect.left - parentRect.left}px`;
 });
-</script>
+
