@@ -711,13 +711,14 @@ hr {
 .header-box > .top-right-box {
     grid-area: top-right-box;
     display: flex;
-    align-items: center;          /* vertical centering */
-    justify-content: center;      /* horizontal centering */
+    align-items: center;
+    justify-content: flex-end;     /* push toward right edge */
     background-image: url("https://scp-wiki.wdfiles.com/local--files/theme%3Abasalt/basalt_scp_logo-for_darkmode.svg");
     background-size: 75px 75px;
     background-repeat: no-repeat;
-    background-position: center;
-    margin: 0;                    /* REMOVE offsets */
+    background-position: center right;
+    padding-right: 1.5em;         /* <-- axis alignment control */
+    margin: 0;
 }
 
 @media screen and (max-width: 800px) {
