@@ -610,7 +610,7 @@ hr {
         "top-left-box top-middle-box top-right-box";
     width: 100%;
     min-height: 100px;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: max-content auto 1fr;
     grid-template-rows: 1fr;
     justify-items: stretch;
     margin: 0 0 0 0;
