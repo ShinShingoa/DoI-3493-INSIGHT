@@ -45,6 +45,39 @@ body {
     padding-bottom: 80px; /* Space for fixed tab buttons */
 }
 
+/* ==========================================
+   CUSTOM SCROLLBAR STYLING
+   ========================================== */
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #8b0000 #1a1a1a;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #8b0000;
+    border-radius: 0px;
+    border: 1px solid #000000;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #b30000;
+}
+
+*::-webkit-scrollbar-corner {
+    background: #1a1a1a;
+}
+
 b,
 strong {
     font-weight: 800;
