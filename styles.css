@@ -419,6 +419,9 @@ hr {
     border: solid 4px rgba(153, 0, 0);
     text-align: center;
     background-color: rgba(74, 1, 9, 0.7);
+    memo-heading: "CLASSIFICATION COMMITTEE MEMORANDUM";
+    memo-color: 237, 245, 243;
+    memo-logo: url("https://scp-wiki.wikidot.com/local--files/theme:basalt/CLASSIFICATION_LIGHTLOGO.png");
 }
 
 .classification_memo h2 {
@@ -429,6 +432,15 @@ hr {
 .classification_memo h3 {
     font-size: 1em;
     font-weight: normal;
+}
+
+/* ==========================================
+   RAISA MEMO
+   ========================================== */
+.raisa_memo {
+    memo-heading: "NOTICE FROM THE RECORDS AND INFORMATION SECURITY ADMINISTRATION";
+    memo-logo: url("https://scp-wiki.wikidot.com/local--files/theme:basalt/RAISA_LIGHTLOGO.png");
+    memo-color: 255, 243, 173;
 }
 
 /* ==========================================
