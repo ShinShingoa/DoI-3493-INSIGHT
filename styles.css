@@ -409,12 +409,18 @@ hr {
 /* ==========================================
    CLASSIFICATION MEMO
    ========================================== */
-.memo-heading {
+.classification_memo::before {
+    content: "CLASSIFICATION COMMITTEE MEMORANDUM";
+    display: block;
+
     font-weight: 900;
     font-size: 1.3em;
+
+    margin-bottom: 1rem;
+    padding-top: 0.5em;
+
     color: #ebf8fa;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
 .classification_memo {
