@@ -419,7 +419,7 @@ hr {
     border: solid 4px rgba(153, 0, 0);
     text-align: center;
     background-color: rgba(74, 1, 9, 0.7);
-    background-image: url(https://scp-wiki.wikidot.com/local--files/theme:basalt/CLASSIFICATION_LIGHTLOGO.png);
+    background-image: url("https://scp-wiki.wikidot.com/local--files/theme:basalt/CLASSIFICATION_LIGHTLOGO.png");
 }
 
 .classification_memo h2 {
