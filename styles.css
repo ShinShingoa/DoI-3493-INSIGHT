@@ -419,7 +419,7 @@ hr {
     margin-bottom: 1rem;
     padding-top: 0.5em;
 
-    color: #ebf8fa;
+    color: #ebf8fa !important;
     text-align: center;
 }
 
